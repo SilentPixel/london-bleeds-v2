@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "london-bleeds"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy",
+    "pydantic",
+    "pydantic-settings",
+    "python-dotenv",
+    "orjson",
+    "alembic",
+    "openai",
+    "faiss-cpu",
+    "markdown-it-py",
+]
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "black",
+    "ruff",
+    "mypy",
+]
+
+[project.scripts]
+dev = "uvicorn app.main:app --reload"

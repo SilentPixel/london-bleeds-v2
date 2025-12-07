@@ -1,0 +1,44 @@
+{
+  "id": "whitechapel_diaries_case",
+  "uuid": "m1111111-1111-1111-1111-111111111111",
+  "title": "The Whitechapel Diaries",
+  "act": "act_1",
+
+  "main_question": "What is the true nature of the killings mapped by the diary, and who orchestrates them?",
+
+  "hypotheses": [
+    "A single, preternaturally skilled killer acting alone.",
+    "A coordinated group using the myth of a lone Ripper as camouflage.",
+    "A philanthropic trust masking darker practices under charity routes."
+  ],
+
+  "confirmed_clues_ids": [
+    "canvas_fragment",
+    "suppressed_witness_statement",
+    "greel_tool_ledger",
+    "reversed_cut_diagram",
+    "brass_charity_token",
+    "finch_shortcut_map",
+    "red_ink_note"
+  ],
+
+  "red_herings": [
+    "The idea that anatomical precision alone proves a surgeon is responsible.",
+    "The assumption that official Yard files are complete and honest."
+  ],
+
+  "threads": [
+    {
+      "label": "Coach Route",
+      "description": "Murders and sightings align with a potential coach route through Whitechapel and toward the river stairs."
+    },
+    {
+      "label": "Charity Tokens",
+      "description": "Brass tokens and pamphlets link victims to specific philanthropic networks."
+    },
+    {
+      "label": "Staged Precision",
+      "description": "Evidence suggests the killer's surgical skill may be exaggerated or deliberately misrepresented."
+    }
+  ]
+}

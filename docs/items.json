@@ -1,0 +1,132 @@
+[
+  {
+    "id": "the_diary",
+    "uuid": "f1111111-1111-1111-1111-111111111111",
+    "name": "The Whitechapel Diary",
+    "kind": "document",
+    "description": "A disturbing diary whose sigils can be overlaid on a map of Whitechapel, forming a cross-like pattern. Its ink shifts subtly when Watson’s mind is strained.",
+    "location_id": "221b_baker_street",
+    "state": {
+      "examined": false,
+      "sigils_decoded": false,
+      "reacts_to_mind_instability": true
+    },
+    "act_introduced": "act_1"
+  },
+  {
+    "id": "laudanum_vial",
+    "uuid": "f2222222-2222-2222-2222-222222222222",
+    "name": "Laudanum Vial",
+    "kind": "medicine",
+    "description": "A small vial of laudanum in Watson’s possession, symbol of both relief and dependency.",
+    "location_id": null,
+    "held_by_character_id": "watson",
+    "state": {
+      "offered_to_holmes": false,
+      "hidden": true
+    },
+    "act_introduced": "act_1"
+  },
+  {
+    "id": "holmes_murder_map",
+    "uuid": "f3333333-3333-3333-3333-333333333333",
+    "name": "Holmes’s Murder Map",
+    "kind": "evidence_board",
+    "description": "A map of Whitechapel on the floor of 221B, covered in cuttings, string, and marked sigils. Missing points are labeled Harper, Lamb, and Beadle.",
+    "location_id": "221b_baker_street",
+    "state": {
+      "viewed": false,
+      "coach_route_hypothesis_unlocked": false
+    },
+    "act_introduced": "act_1"
+  },
+  {
+    "id": "canvas_fragment",
+    "uuid": "f4444444-4444-4444-4444-444444444444",
+    "name": "Canvas Fragment",
+    "kind": "clue",
+    "description": "A fragment of heavy canvas consistent with coach coverings, tagged and hidden in Abberline’s files.",
+    "location_id": "scotland_yard_records",
+    "state": {
+      "retrieved": false,
+      "linked_to_coach": false
+    },
+    "act_introduced": "act_1"
+  },
+  {
+    "id": "suppressed_witness_statement",
+    "uuid": "f5555555-5555-5555-5555-555555555555",
+    "name": "Suppressed Witness Statement",
+    "kind": "document",
+    "description": "A statement referencing a masked coachman near Miller’s Court, marked for burial in the archives.",
+    "location_id": "scotland_yard_records",
+    "state": {
+      "found": false,
+      "presented_to_holmes": false
+    },
+    "act_introduced": "act_1"
+  },
+  {
+    "id": "greel_tool_ledger",
+    "uuid": "f6666666-6666-6666-6666-666666666666",
+    "name": "Greel’s Tool Ledger",
+    "kind": "ledger",
+    "description": "An anatomical tool ledger kept by Tobias Greel, listing who borrowed which instruments and when.",
+    "location_id": "st_bartholomews_theatre",
+    "state": {
+      "obtained": false,
+      "entry_about_lamb_found": false
+    },
+    "act_introduced": "act_1"
+  },
+  {
+    "id": "reversed_cut_diagram",
+    "uuid": "f7777777-7777-7777-7777-777777777777",
+    "name": "Reversed Incision Diagram",
+    "kind": "diagram",
+    "description": "A diagram in Greel’s notes showing deliberate reversal of cut direction, implying staged precision.",
+    "location_id": "st_bartholomews_theatre",
+    "state": {
+      "examined": false
+    },
+    "act_introduced": "act_1"
+  },
+  {
+    "id": "brass_charity_token",
+    "uuid": "f8888888-8888-8888-8888-888888888888",
+    "name": "Brass Charity Token",
+    "kind": "token",
+    "description": "A worn brass token found near a wheel rut in Whitechapel, faintly bearing a crest that matches a symbol in the diary margin.",
+    "location_id": "whitechapel_streets",
+    "state": {
+      "found": false,
+      "linked_to_charity_trust": false
+    },
+    "act_introduced": "act_1"
+  },
+  {
+    "id": "finch_shortcut_map",
+    "uuid": "f9999999-9999-9999-9999-999999999999",
+    "name": "Finch’s Shortcut Map",
+    "kind": "map",
+    "description": "A hand-drawn map of alleys and back ways in Whitechapel, sketched by Finch as a guide to the coachman’s preferred routes.",
+    "location_id": "whitechapel_streets",
+    "state": {
+      "gifted_to_watson": false
+    },
+    "act_introduced": "act_1"
+  },
+  {
+    "id": "red_ink_note",
+    "uuid": "fabababab-aaaa-bbbb-cccc-dddddddddddd",
+    "name": "Red Ink Note",
+    "kind": "message",
+    "description": "A note delivered to 221B with no seal, containing only the message: 'You are late, Doctor. The city bleeds again.'",
+    "location_id": "221b_baker_street",
+    "state": {
+      "delivered": false,
+      "read": false
+    },
+    "act_introduced": "act_1"
+  }
+]

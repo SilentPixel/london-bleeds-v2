@@ -1,0 +1,58 @@
+[
+  {
+    "id": "lore_act1_tone",
+    "uuid": "l1111111-1111-1111-1111-111111111111",
+    "category": "tone",
+    "text": "Act I focuses on mapping: not just the streets of Whitechapel, but the moral and psychological cartography of those who hunt and those who kill.",
+    "act": "act_1"
+  },
+  {
+    "id": "lore_whitechapel",
+    "uuid": "l2222222-2222-2222-2222-222222222222",
+    "category": "place",
+    "text": "Whitechapel is a district of narrow, dripping streets, where gaslight flickers on wet cobbles and rumor travels faster than any coach.",
+    "act": "act_1"
+  },
+  {
+    "id": "lore_baker_street",
+    "uuid": "l3333333-3333-3333-3333-333333333333",
+    "category": "place",
+    "text": "221B Baker Street is both refuge and crucible, where domestic comforts are slowly consumed by the heat of Holmes’s intellect.",
+    "act": "act_1"
+  },
+  {
+    "id": "lore_scotland_yard",
+    "uuid": "l4444444-4444-4444-4444-444444444444",
+    "category": "place",
+    "text": "Scotland Yard’s records office is a maze of paper and politics, where truth can be misfiled into oblivion.",
+    "act": "act_1"
+  },
+  {
+    "id": "lore_st_barts",
+    "uuid": "l5555555-5555-5555-5555-555555555555",
+    "category": "place",
+    "text": "At St. Bartholomew’s Hospital, murder is reduced to specimen and technique, numbing the ethical shock beneath a veil of science.",
+    "act": "act_1"
+  },
+  {
+    "id": "lore_trust",
+    "uuid": "l6666666-6666-6666-6666-666666666666",
+    "category": "mechanic",
+    "text": "Trust between Holmes and Watson can be strengthened through solidarity or weakened by doubt, reshaping how theories are shared and how risks are taken.",
+    "act": "act_1"
+  },
+  {
+    "id": "lore_mind_stability",
+    "uuid": "l7777777-7777-7777-7777-777777777777",
+    "category": "mechanic",
+    "text": "Mind Stability measures how well Watson’s perception holds against intrusion by horror, obsession, and the diary’s influence.",
+    "act": "act_1"
+  },
+  {
+    "id": "lore_coachman_myth",
+    "uuid": "l8888888-8888-8888-8888-888888888888",
+    "category": "myth",
+    "text": "Among those who walk Whitechapel at night, there are whispers of a coach that appears and vanishes in fog, driven by a man whose face no one can quite remember.",
+    "act": "act_1"
+  }
+]

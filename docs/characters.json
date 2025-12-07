@@ -1,0 +1,146 @@
+[
+  {
+    "id": "watson",
+    "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "name": "Dr. John H. Watson",
+    "role": "player_character",
+    "description": "Army doctor, companion to Holmes, narrator of the case. In Act I, he carries the diary, mediates between Holmes and the world, and begins to question his own perceptions.",
+    "background": "Veteran of Afghanistan, physician, and chronicler of Holmes's cases. His medical eye is both a tool and a liability as the case gnaws at his sanity.",
+    "personality": {
+      "loyal": true,
+      "skeptical": true,
+      "empathetic": true,
+      "susceptible_to_guilt": true
+    },
+    "relationships": {
+      "holmes": "admiration mixed with growing concern",
+      "abberline": "wary respect",
+      "greel": "professional unease",
+      "finch": "protective curiosity"
+    },
+    "secrets_known": [
+      "The diary’s sigils shift when his mind is strained.",
+      "He possesses a laudanum vial he may offer or conceal."
+    ],
+    "clues_provided": [
+      "Medical insight into wound patterns and anatomical plausibility.",
+      "Subjective accounts of hallucinations, if Mind Stability is low."
+    ],
+    "starting_location_id": "221b_baker_street",
+    "immutable": true
+  },
+  {
+    "id": "holmes",
+    "uuid": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "name": "Sherlock Holmes",
+    "role": "major_npc",
+    "description": "Consulting detective whose intellect cuts through fog like a scalpel. In Act I, he teeters between brilliance and obsession as he charts the Ripper murders on his map.",
+    "background": "Known to London’s underworld and its most powerful men, Holmes thrives on puzzles that graze the moral edge of the possible.",
+    "personality": {
+      "analytical": true,
+      "obsessive": true,
+      "detached": true,
+      "secretive": true
+    },
+    "relationships": {
+      "watson": "indispensable companion and moral counterweight",
+      "abberline": "professional friction with grudging respect",
+      "greel": "intellectual curiosity without trust"
+    },
+    "secrets_known": [
+      "The sigils in the diary form a cross-like pattern over Whitechapel.",
+      "Points labeled Harper, Lamb, and Beadle are missing or suppressed.",
+      "He suspects a coordinated group rather than a lone killer."
+    ],
+    "clues_provided": [
+      "Map deduction of sigils over Whitechapel.",
+      "The 'coach route' hypothesis linking murders and charity routes."
+    ],
+    "starting_location_id": "221b_baker_street",
+    "immutable": true
+  },
+  {
+    "id": "abberline",
+    "uuid": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+    "name": "Inspector Frederick Abberline",
+    "role": "major_npc",
+    "description": "Seasoned Yard inspector bearing the weight of institutional failure. He guards the line between public truth and buried truth.",
+    "background": "Tangled in the politics of policing Whitechapel, his loyalties divide between justice and survival.",
+    "personality": {
+      "weary": true,
+      "cautious": true,
+      "cynical": true,
+      "not_fully_compromised": true
+    },
+    "relationships": {
+      "watson": "cautious respect for his independence",
+      "holmes": "asset and threat",
+      "yard": "bound by obligation, haunted by remorse"
+    },
+    "secrets_known": [
+      "Some witness statements have been suppressed.",
+      "Rumors of a 'ghost ledger' used to bury sensitive evidence."
+    ],
+    "clues_provided": [
+      "Access (or denial) to sealed evidence folders.",
+      "Confirmation of the masked coachman near Miller’s Court."
+    ],
+    "starting_location_id": "scotland_yard_records",
+    "immutable": true
+  },
+  {
+    "id": "tobias_greel",
+    "uuid": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+    "name": "Tobias Greel",
+    "role": "major_npc",
+    "description": "An anatomist at St. Bartholomew’s whose fascination with dissection stains his moral sensibilities.",
+    "background": "Straddles the line between healer and academic voyeur, treating murder as misapplied anatomy.",
+    "personality": {
+      "flippant_about_death": true,
+      "proud": true,
+      "envious_of_skill": true
+    },
+    "relationships": {
+      "watson": "colleague, ethically opposed",
+      "holmes": "intellectually interesting but untrustworthy",
+      "lamb": "borrowed surgical saw noted in ledger"
+    },
+    "secrets_known": [
+      "A surgical saw was lent to a Mr. Lamb.",
+      "Wounds appear staged to mimic surgical skill."
+    ],
+    "clues_provided": [
+      "Tool ledger tying instruments to individuals.",
+      "Diagram showing reversal of cut direction."
+    ],
+    "starting_location_id": "st_bartholomews_theatre",
+    "immutable": true
+  },
+  {
+    "id": "finch",
+    "uuid": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "name": "Finch",
+    "role": "supporting_npc",
+    "description": "A sharp-eyed local familiar with Whitechapel’s hidden paths, often troubled by constables.",
+    "background": "Survives by wits and intuition; has witnessed more than he admits.",
+    "personality": {
+      "nervous": true,
+      "resourceful": true,
+      "loyal_if_earned": true
+    },
+    "relationships": {
+      "watson": "growing trust if defended",
+      "constables": "frequent harassment"
+    },
+    "secrets_known": [
+      "Knows shortcut alleys used by a particular coach.",
+      "Has seen a crest matching the diary’s sigils."
+    ],
+    "clues_provided": [
+      "A shortcut map of Whitechapel routes.",
+      "Testimony about coach movements near river stairs."
+    ],
+    "starting_location_id": "whitechapel_streets",
+    "immutable": false
+  }
+]

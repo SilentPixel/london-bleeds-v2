@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary: #293351;
+  --color-accent: #CD7B00;
+  --color-background: #FDF9F5;
+  --color-muted: #929DBF;
+  --color-border: #C5CBDD;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Open Sans", sans-serif;
+}
+
+body {
+  @apply bg-background text-primary font-sans;
+}
+
+/* Selection styling */
+::selection {
+  background-color: #CD7B00;
+  color: white;
+}

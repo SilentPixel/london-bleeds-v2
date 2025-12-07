@@ -1,0 +1,72 @@
+[
+  {
+    "id": "221b_baker_street",
+    "uuid": "11111111-1111-1111-1111-111111111111",
+    "name": "221B Baker Street",
+    "description": "Holmes and Watson's lodgings, a domestic interior turned war room of maps, clippings, and string. In Act I, it appears first in early morning light, then later as a rain-drummed night of intense theorizing.",
+    "atmosphere": "Domestic familiarity tainted by intellectual mania; the ticking clock sounds like distant footsteps.",
+    "tags": ["home_base", "study", "reflection"],
+    "exits": [
+      { "label": "to_scotland_yard", "to_location_id": "scotland_yard_records" },
+      { "label": "to_st_barts", "to_location_id": "st_bartholomews_theatre" },
+      { "label": "to_whitechapel", "to_location_id": "whitechapel_streets" }
+    ],
+    "act_introduced": "act_1",
+    "immutable": true
+  },
+  {
+    "id": "scotland_yard_records",
+    "uuid": "22222222-2222-2222-2222-222222222222",
+    "name": "Scotland Yard – Records and Evidence",
+    "description": "A paper maze under gaslight, smelling of ink, damp wool, and stale tobacco. Constables whisper about the 'ghost ledger' and evidence that never reaches trial.",
+    "atmosphere": "Institutional, secretive, shadowed by bureaucracy and half-spoken conspiracies.",
+    "tags": ["records_office", "police", "authority"],
+    "exits": [
+      { "label": "to_baker_street", "to_location_id": "221b_baker_street" },
+      { "label": "to_whitechapel", "to_location_id": "whitechapel_streets" }
+    ],
+    "act_introduced": "act_1",
+    "immutable": true
+  },
+  {
+    "id": "st_bartholomews_theatre",
+    "uuid": "33333333-3333-3333-3333-333333333333",
+    "name": "St. Bartholomew’s Hospital – Anatomy Theatre",
+    "description": "A chilled anatomy theatre with sawdust damp from carbolic, a cadaver half-shrouded in muslin, and Tobias Greel lecturing above it in a blood-speckled apron.",
+    "atmosphere": "Clinical, morbid, detached; the line between curiosity and cruelty is blurred.",
+    "tags": ["hospital", "anatomy", "science"],
+    "exits": [
+      { "label": "to_baker_street", "to_location_id": "221b_baker_street" },
+      { "label": "to_scotland_yard", "to_location_id": "scotland_yard_records" }
+    ],
+    "act_introduced": "act_1",
+    "immutable": true
+  },
+  {
+    "id": "whitechapel_streets",
+    "uuid": "44444444-4444-4444-4444-444444444444",
+    "name": "Whitechapel Streets",
+    "description": "Narrow streets soaked in drizzle, gaslight flickering on wet cobbles. At night, a phantom coach moves through fog-slick alleys, its lantern burning sickly green.",
+    "atmosphere": "Oppressive, labyrinthine, haunted by poverty, fear, and rumor.",
+    "tags": ["streets", "pursuit", "fog"],
+    "exits": [
+      { "label": "to_baker_street", "to_location_id": "221b_baker_street" },
+      { "label": "to_scotland_yard", "to_location_id": "scotland_yard_records" }
+    ],
+    "act_introduced": "act_1",
+    "immutable": true
+  },
+  {
+    "id": "coach_route_abstraction",
+    "uuid": "55555555-5555-5555-5555-555555555555",
+    "name": "The Coachman’s Route (Abstracted)",
+    "description": "A conceptual node representing the remembered route of the masked coachman through Whitechapel — not a navigable grid, but a mental map of turns, shortcuts, and the final approach to the river stairs.",
+    "atmosphere": "Fragmentary, half-remembered, tinged with hallucination when Watson’s mind is strained.",
+    "tags": ["abstract", "route_memory"],
+    "exits": [
+      { "label": "to_whitechapel_streets", "to_location_id": "whitechapel_streets" }
+    ],
+    "act_introduced": "act_1",
+    "immutable": true
+  }
+]

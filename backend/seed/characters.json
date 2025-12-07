@@ -1,0 +1,65 @@
+[
+  {
+    "id": "watson",
+    "name": "Dr. John H. Watson",
+    "bio": "Army doctor, companion to Holmes, narrator of the case. In Act I, he carries the diary, mediates between Holmes and the world, and begins to question his own perceptions. Veteran of Afghanistan, physician, and chronicler of Holmes's cases. His medical eye is both a tool and a liability as the case gnaws at his sanity.",
+    "traits": {
+      "loyal": true,
+      "skeptical": true,
+      "empathetic": true,
+      "susceptible_to_guilt": true
+    },
+    "last_known_location_id": "221b_baker_street",
+    "immutable": true
+  },
+  {
+    "id": "holmes",
+    "name": "Sherlock Holmes",
+    "bio": "Consulting detective whose intellect cuts through fog like a scalpel. In Act I, he teeters between brilliance and obsession as he charts the Ripper murders on his map. Known to London's underworld and its most powerful men, Holmes thrives on puzzles that graze the moral edge of the possible.",
+    "traits": {
+      "analytical": true,
+      "obsessive": true,
+      "detached": true,
+      "secretive": true
+    },
+    "last_known_location_id": "221b_baker_street",
+    "immutable": true
+  },
+  {
+    "id": "abberline",
+    "name": "Inspector Frederick Abberline",
+    "bio": "Seasoned Yard inspector bearing the weight of institutional failure. He guards the line between public truth and buried truth. Tangled in the politics of policing Whitechapel, his loyalties divide between justice and survival.",
+    "traits": {
+      "weary": true,
+      "cautious": true,
+      "cynical": true,
+      "not_fully_compromised": true
+    },
+    "last_known_location_id": "scotland_yard_records",
+    "immutable": true
+  },
+  {
+    "id": "tobias_greel",
+    "name": "Tobias Greel",
+    "bio": "An anatomist at St. Bartholomew's whose fascination with dissection stains his moral sensibilities. Straddles the line between healer and academic voyeur, treating murder as misapplied anatomy.",
+    "traits": {
+      "flippant_about_death": true,
+      "proud": true,
+      "envious_of_skill": true
+    },
+    "last_known_location_id": "st_bartholomews_theatre",
+    "immutable": true
+  },
+  {
+    "id": "finch",
+    "name": "Finch",
+    "bio": "A sharp-eyed local familiar with Whitechapel's hidden paths, often troubled by constables. Survives by wits and intuition; has witnessed more than he admits.",
+    "traits": {
+      "nervous": true,
+      "resourceful": true,
+      "loyal_if_earned": true
+    },
+    "last_known_location_id": "whitechapel_streets",
+    "immutable": false
+  }
+]
